@@ -12,7 +12,7 @@ var app = express();
 const server = require("http").Server(app);
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://stupendous-pika-929203.netlify.app",
   },
 });
 
